@@ -1,0 +1,770 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: "Comic Neue", sans-serif;
+    scroll-behavior: smooth;
+}
+
+.navigation li, .navigation a {
+    font-family: "Comic Neue", sans-serif;
+    font weight: 500;
+    font-size: 20px;
+    color: #2F4F4E;
+    text-decoration: none;
+}
+
+.navigation {
+    background-color: #D1B48C;
+    display: flex;
+    position: fixed;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 7%;
+    height:100px;
+    width: 100%;
+    z-index: 1;
+}
+
+.HOME-nav {
+    cursor: pointer;
+}
+
+.HOME-nav img {
+    width: 84px;
+    height: 80px;
+}
+
+.COFFEE-nav, .EVENTS-nav, .HOME-nav, .ABOUTUS-nav, .PROFILE-nav {
+    list-style: none;
+}
+
+.COFFEE-nav li, .EVENTS-nav li, .HOME-nav li, .ABOUTUS-nav li, .PROFILE-nav li {
+    display: inline-block;
+    padding: 0px 10px;
+}
+
+.COFFEE-nav li a, .EVENTS-nav li a, .HOME-nav li a, .ABOUTUS-nav li a, .PROFILE-nav li a {
+    transition: all 0.3s ease 0s;
+}
+
+.COFFEE-nav li a:hover, .EVENTS-nav li a:hover, .ABOUTUS-nav li a:hover, .PROFILE-nav li a:hover {
+    color: aliceblue;
+    transform:;
+}
+
+@media(max-width: 850px){
+    header{
+        padding: 0px 7px;
+        background: #D1B48C;
+        display: block;
+        position: absolute;
+    }
+}
+
+#banner {
+    width: 100%;
+    height: 100vh;
+    background: url("asset/banner.png") no-repeat center / cover;
+    color: #9B5327;
+    position: ;
+}
+
+.container {
+    width: 90%;
+    height: 100%;
+    max-width: ;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: ;
+}
+
+@media(max-width: 850px){
+    .container{
+        padding: 0px 7px;
+        display: block;
+    }
+}
+
+.container .sticker-text h1 {
+    font-family: "Satisfy";
+    font-size: 40px;
+    color: #EFE4D4;
+    font-weight: 400;
+    width: 30%;
+    text-align: center;
+    margin-left: 550px;
+    margin-bottom: 220px;
+}
+
+@media(max-width: 850px){
+    .container .sticker-text h1{
+        padding: 0px 7px;
+        display: block;
+    }
+}
+
+.container .banner-content {
+    font-family: "Satisfy";
+    padding-left: 200px;
+}
+
+@media(max-width: 850px){
+    .container .banner-content{
+        padding: 0px 7px;
+        display: block;
+    }
+}
+
+.container .banner-content h1 {
+    font-size: 64px;
+    font-weight: 400;
+    margin-top: 24px;
+    margin-bottom: -20px;
+    margin-left: px;
+}
+
+@media(max-width: 850px){
+    .container .banner-content h1{
+        padding: 0px 7px;
+        display: block;
+        padding-left: 60%;
+    }
+}
+
+.container .banner-content h2 {
+    font-size: 96px;
+    font-weight: 400;
+    margin-bottom: 36px;
+    margin-left: 48px;
+    max-width: ;
+}
+
+@media(max-width: 850px){
+    .container .banner-content h2{
+        padding: 0px 7px; 
+        display: block;
+        margin-left: 150px;
+    }
+}
+
+.container .banner-content p{
+    font-family: "Comic Neue";
+    font-size: 24px;
+    font-weight: 800;
+    max-width: 100%;
+    width: 500px;
+    margin-bottom: 48px;
+    margin-left: 42px;
+    text-align: left;
+    letter-spacing: px;
+}
+
+@media(max-width: 850px){
+    .container .banner-content p{
+        padding: 0px 7px;
+        display: block;
+        margin-left: 25%;
+    }
+}
+
+.container .banner-content a{
+    font-family: "Comic Neue";
+    color: #EFE4D4;
+    text-decoration: none;
+    display: inline-block;
+    background-color: #9B5327;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 19px 41px;
+    margin-top: 0px;
+    margin-left: 130px;
+}
+
+@media(max-width: 850px){
+    .container .banner-content a{
+       margin-left: 50%;
+    }
+}
+
+.container .banner-content a:hover {
+    font-family: "Comic Neue";
+    color: #9B5327;
+    text-decoration: none;
+    display: inline-block;
+    background-color: #f7b684;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 19px 41px;
+}
+
+.container .banner-img img {
+    width:52px;
+    height: 50px;
+    margin-bottom: 420px;
+    display: block;
+    margin-top: 20px;
+}
+
+.best-seller {
+    overflow: hidden;
+    background-color: #FFF9F2;
+}
+
+.best-seller h1 {
+    font-family: "Satisfy";
+    font-weight: 400;
+    color: #9D6F53;
+    text-align: center;
+    font-size: 50px;
+    padding-top: 48px;
+    margin-bottom: -52px;
+}
+
+@media(max-width: 850px){
+    h1{
+        padding: 0px 7px;
+        display: block;
+}
+}
+
+.best-seller .cards{
+    font-family: "Comic Neue", sans-serif;
+    color: #9D6F53;
+    display: flex;
+    width: auto;
+}
+
+@media(max-width: 850px){
+    .best-seller .cards{
+        padding: 0px 7%;
+        display: block;
+    }
+}
+
+.best-seller .cards .card-content1 {
+    background-color: #EFE0CD;
+    margin-top: 96px;
+    margin-bottom: 48px;
+    margin-left: 108px;
+    margin-right: px;
+    padding: 50px;
+    padding-left: 300px;
+    padding-right: 33px;
+    border-radius: 10px;
+    width: 720px;
+    line-height: 30px;
+    position: static;
+    max-width: ;
+}
+
+@media(max-width: 850px){
+    .best-seller .cards .card-content1{
+        padding: 0px 7%;
+        display: block;
+    }
+}
+
+.best-seller .cards .card-content2 {
+    background-color: #EFE0CD;
+    margin-top: 96px;
+    margin-bottom: 48px;
+    margin-left: 108px;
+    margin-right: 108px;
+    padding: 50px;
+    padding-left: 300px;
+    padding-right: 33px;
+    border-radius: 10px;
+    width: px;
+    line-height: 30px;
+    position: static;
+    max-width: ;
+}
+
+@media(max-width: 850px){
+    .best-seller .cards .card-content2{
+        padding: 0px 7px;
+        display: block;
+    }
+}
+
+.best-seller .cards .card-img img {
+    width: 280px;
+    height: 310px;
+    border-radius: 10px;
+}
+
+@media(max-width: 850px){
+    .best-seller .cards .card-img img{
+        padding: 0px 7px;
+        display: block;
+    }
+}
+
+.best-seller .cards .card-img {
+    margin-top: 120px;
+    margin-right: -360px;
+    margin-left: 108px;
+    position: relative;
+}
+
+@media(max-width: 850px){
+    .best-seller .cards .card-img{
+        padding: 0px 7px;
+        display: block;
+    }
+}
+
+.best-seller a {
+    font-family: "Comic Neue";
+    color: #EFE4D4;
+    text-decoration: none;
+    display: ;
+    background-color: #9B5327;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 19px 41px;
+    margin-top: 36px;
+    margin-left: px;
+    margin-bottom: 52px;
+}
+
+ @media(max-width: 850px){
+    .best-seller a{
+        display: block;
+    }
+} 
+
+.best-button {
+    display: flex;
+    justify-content: center;
+}
+
+@media(max-width: 850px){
+    .best-button{
+        padding: 0px 7px;
+        margin-left: 0%;
+    }
+} 
+
+.best-seller a:hover {
+    font-family: "Comic Neue";
+    color: #9B5327;
+    text-decoration: none;
+    display: inline-block;
+    background-color: #f7b684;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 19px 41px;
+}
+
+.events {
+    overflow: hidden;
+    background-color: #F9F0E4;
+}
+
+.events h1 {
+    font-family: "Satisfy";
+    font-weight: 400;
+    color: #9D6F53;
+    text-align: center;
+    font-size: 50px;
+    padding-top: 48px;
+    padding-bottom: 36px;
+}
+
+@media(max-width: 850px){
+    .events h1{
+        padding: 0px 7px;
+        display: block;
+    }
+}
+
+.event-content .event1, .event2, .event3 {
+    display: flex;
+    font-family: "Comic Neue", sans-serif;
+    color: #9D6F53;
+    width: auto;
+    margin-left: 108px;
+    margin-right: 108px;
+}
+
+@media(max-width: 850px){
+    .event-content .event1, .event2, .event3{
+        padding: 0px 7px;
+        display: block;
+        height: 600px;
+    }
+}
+
+.event1 .event1-img img{
+    width: 665px;
+    height: 447px;
+    border-radius: 10px;
+}
+
+@media(max-width: 850px){
+    .event1 .event1-img img{
+        padding: 0px 7px;
+        display: block;
+        width: 400px;
+        height: 300px;
+    }
+}
+
+.event2 .event2-img img{
+    width: 506px;
+    height: 525px;
+    border-radius: 10px;
+}
+
+@media(max-width: 850px){
+    .event2 .event2-img img{
+        padding: 0px 7px; 
+        display: block;
+        width: 400px;
+        height: 300px;
+        padding-top: 10%;
+        margin-left: 45%;
+    }
+}
+
+.event3 .event3-img img{
+    width: 482px;
+    height: 380px;
+    border-radius: 10px;
+}
+
+@media(max-width: 850px){
+    .event3 .event3-img img{
+        padding: 0px 7px; 
+        display: block;
+        width: 400px;
+        height: 350px;
+        padding-top: 5%;
+    }
+}
+
+.event1{
+    padding-bottom: 48px;
+}
+
+.event1-content {
+    margin-left: 54px;
+    margin-right: px;
+}
+
+.event1-content h2{
+    padding-bottom: 24px;
+}
+
+@media(max-width: 850px){
+    h2{
+        padding: 0px 7px;
+        display: block;
+        text-align: left;
+    }
+}
+
+.event1-content p{
+    max-width: 100%;
+    line-height: 25px;
+} 
+
+@media(max-width: 850px){
+    .event1-content p{
+        padding: 0px 7px;
+        display: block;
+        text-align: left;
+    }
+}
+
+.event2 {
+    justify-content: right;
+    padding-bottom: 48px;
+}
+
+.event2-content {
+    margin-right: 54px;
+    margin-left: px;
+    text-align: right;
+}
+
+.event2-content h2{
+    padding-bottom: 24px;
+}
+
+@media(max-width: 850px){
+    .event2-content h2{
+        padding: 0px 7px;
+        display: block;
+        text-align: left;
+        margin-right: 60%;
+    }
+}
+
+.event2-content p{
+    max-width: 100%;
+    line-height: 25px;
+} 
+
+@media(max-width: 850px){
+    .event2-content p{
+        padding: 0px 7px;
+        display: block;
+        text-align: left;
+        margin-right: 60%;
+    }
+}
+
+.event2-img{
+    margin-top: -200px;
+}
+
+@media(max-width: 850px){
+    .event2-img{
+        padding: 0px 7px;
+        display: block;
+        padding-bottom: 50%;
+    }
+}
+
+.event3{
+    padding-bottom: 48px;
+}
+
+.event3-content {
+    margin-left: 54px;
+    margin-right: px;
+}
+
+.event3-content h2{
+    padding-bottom: 24px;
+}
+
+@media(max-width: 850px){
+    .event3-content h2{
+        padding: 0px 7px;
+        display: block;
+        text-align: left;
+    }
+}
+.event3-content p{
+    max-width: 100%;
+    line-height: 25px;
+} 
+
+@media(max-width: 850px){
+    .event3-content p{
+        padding: 0px 7px;
+        display: block;
+        text-align: left;
+    }
+}
+
+.event3-img{
+    margin-top: -160px;
+}
+
+@media(max-width: 850px){
+    .event3-img{
+        padding: 0px 7px;
+        display: block;
+    }
+}
+
+.events a {
+    font-family: "Comic Neue";
+    color: #EFE4D4;
+    text-decoration: none;
+    display:;
+    background-color: #9B5327;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 19px 41px;
+    margin-top: px;
+    margin-left:px;
+    margin-bottom: 52px;
+}
+
+.event-button {
+    display: flex;
+    justify-content: center;
+}
+
+@media(max-width: 850px){
+    .event-button{
+        padding: 0px 7px;
+    }
+}
+
+.events a:hover {
+    font-family: "Comic Neue";
+    color: #9B5327;
+    text-decoration: none;
+    display: inline-block;
+    background-color: #f7b684;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 19px 41px;
+}
+
+.about{
+    background-color: #EFE0CD;
+}
+
+.about .about-content {
+    display: flex;
+    padding-top: 140px;
+    margin-left: 108px;
+    margin-right: 108px;
+    padding-bottom: 140px;
+}
+
+.about-content .about-img img{
+    width: 590px;
+    height: 471px;
+    border-radius: 10px;
+}
+
+@media(max-width: 850px){
+    .about-content .about-img img{
+        padding: 0px 7px;
+        display: block;
+        width: 400px;
+        height: 400px;
+    }
+}
+
+.about-content h1{
+    font-family: "Satisfy";
+    font-weight: 400;
+    color: #9D6F53;
+    font-size: 56px;
+    max-width: 75%;
+}
+
+
+
+.about-content p{
+    font-family: "Comic Neue";
+    font-weight: 700;
+    color: #9D6F53;
+    line-height: 36px;
+    font-size: 20px;
+    max-width: 75%;
+    text-align: left;
+}
+
+
+
+.about a {
+    font-family: "Comic Neue";
+    color: #EFE4D4;
+    display: flex;
+    text-decoration: none;
+    display: inline-block;
+    background-color: #9B5327;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 19px 41px;
+    margin-top: 48px;
+    margin-left: px;
+    margin-bottom: 52px;
+}
+
+@media(max-width: 850px){
+    .about a{
+        margin-left: 200%;
+        
+    }
+}
+
+.about a:hover {
+    font-family: "Comic Neue";
+    color: #9B5327;
+    text-decoration: none;
+    display: inline-block;
+    background-color: #f7b684;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 19px 41px;
+}
+
+.footer{
+    background-color: #D1B48C;
+    position: absolute;
+    height:360px;
+    width: 100%;
+}
+
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    padding: 0 7%;
+    margin-top: 66px;
+}
+
+.footer-content p, li, a{
+    text-decoration: none;
+    color: #2F4F4E;
+    line-height: 30px;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+@media (max-width: 850px){
+    footer{
+        padding : 0px 0px;
+        display : block;
+    }
+}
+
+.col1-logo img{
+    width: 131px;
+    height: 125px;
+}
+
+.col5-content img{
+    width: 30px;
+    height: 30px;
+}
+
+.col1-content {
+    max-width: 100%;
+    margin-right: -200px;
+}
+
+.col1-content p{
+    line-height: 25px;
+}
+
+.col3-content {
+    margin-top: -26px;
+}
+
+.col4-content {
+    margin-top: -52px;
+}
+
+.col5-content .facebook, .instagram, .twitter{
+    display: flex;
+}
+
+.icon-txt {
+    padding-left: 10px;
+}

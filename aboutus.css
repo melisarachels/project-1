@@ -1,0 +1,357 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: "Comic Neue", sans-serif;
+    scroll-behavior: smooth;
+}
+
+.navigation li, .navigation a {
+    font-family: "Comic Neue", sans-serif;
+    font weight: 500;
+    font-size: 20px;
+    color: #2F4F4E;
+    text-decoration: none;
+}
+
+.navigation {
+    background-color: #D1B48C;
+    display: flex;
+    position: fixed;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 7%;
+    height:100px;
+    width: 100%;
+    z-index: 1;
+}
+
+.HOME-nav {
+    cursor: pointer;
+}
+
+.HOME-nav img {
+    width: 84px;
+    height: 80px;
+}
+
+.COFFEE-nav, .EVENTS-nav, .HOME-nav, .ABOUTUS-nav, .PROFILE-nav {
+    list-style: none;
+}
+
+.COFFEE-nav li, .EVENTS-nav li, .HOME-nav li, .ABOUTUS-nav li, .PROFILE-nav li {
+    display: inline-block;
+    padding: 0px 10px;
+}
+
+.COFFEE-nav li a, .EVENTS-nav li a, .HOME-nav li a, .ABOUTUS-nav li a, .PROFILE-nav li a {
+    transition: all 0.3s ease 0s;
+}
+
+.COFFEE-nav li a:hover, .EVENTS-nav li a:hover, .ABOUTUS-nav li a:hover, .PROFILE-nav li a:hover {
+    color: aliceblue;
+}
+
+@media (max-width: 850px){
+    header{
+        padding: 0px 7px;
+        background: #D1B48C;
+        display: block;
+        position: absolute;
+    }
+}
+
+.about {
+    overflow: hidden;
+    background-color: #EFE0CD;
+    color: #9D6F53;
+}
+
+.about h1{
+    font-family: "Satisfy";
+    font-weight: 400;
+    color: #9D6F53;
+    text-align: center;
+    font-size: 50px;
+    padding-top: 164px;
+    margin-bottom: 0px;
+}
+
+@media (max-width: 850px){
+    .h1{
+        padding: 0px 7px;
+        display: block;
+        position: absolute;
+    }
+}
+
+.history1, .history2, .mission, .team {
+    display: flex;
+    align-items: center;
+    margin-right: 108px;
+    margin-left: 108px;
+}
+
+@media(max-width: 850px){
+    .history1{
+        padding: 0 7px;
+        display: block;
+    }
+    .history2{
+        padding: 0 7px;
+        display: block;
+    }
+    .mission{
+        padding: 0 7px;
+        display: block;
+    }
+    .team{
+        padding: 0 7px;
+        display: block;
+    }
+}
+
+.history1{
+    margin-top: 58px;
+}
+
+.history2{
+    margin-top: 56px;
+}
+
+.mission{
+    margin-top: 101px;
+}
+
+.team{
+    margin-top: 101px;
+}
+
+.quote{
+    font-family: "Satisfy";
+    font-size: 56px;
+    font-weight: 400;
+    line-height: 81px;
+    justify-content: center;
+    text-align: center;
+    margin-top: 127px;
+    margin-right: 240px;
+    margin-left: 240px;
+    margin-bottom: 127px;
+}
+
+@media(max-width: 650px){
+    .quote{
+        padding : 0px 7px;
+        display : block;
+    }
+}
+
+.history1-img img{
+    width: 538px;
+    height: 360px;
+    border-radius: 10px;
+    margin-left: 74px;
+}
+
+@media(max-width: 850px){
+    .history1-img img{
+        padding : 0px 7px;
+        display : block;
+        width: 400px;
+        height: 300px;
+        margin-left: 220px;
+    }
+}
+
+.history2-img img{
+    width: 538px;
+    height: 360px;
+    border-radius: 10px;
+    margin-right: 74px;
+}
+
+@media(max-width: 850px){
+    .history2-img img{
+        padding : 0px 7px;
+        display : block;
+        width: 400px;
+        height: 300px;
+    }
+}
+
+.mission-img img{
+    width: 538px;
+    height: 360px;
+    border-radius: 10px;
+    margin-left: 74px;
+}
+
+@media(max-width: 850px){
+    .mission-img img{
+        padding : 0px 7px;
+        display : block;
+        width: 400px;
+        height: 300px;
+        margin-left: 200px;
+    }
+}
+
+.team-img img{
+    width: 538px;
+    height: 360px;
+    border-radius: 10px;
+    margin-right: 74px;
+}
+
+@media(max-width: 850px){
+    .team-img img{
+        padding : 0px 7px;
+        display : block;
+        width: 400px;
+        height: 300px;
+    }
+}
+
+.history1 h2, .history2 h2{
+    font-size: 36px;
+    margin-bottom: 28px;
+}
+
+@media(max-width: 850px){
+    .history1 h2{
+        padding : 0px 7px;
+        display : block;
+    }
+    .history2 h2{
+        padding : 0px 7px;
+        display : block;
+    }
+}
+
+.history1 p, .history2 p{
+    font-size: 20px;
+    line-height: 23px;
+}
+
+@media(max-width: 850px){
+    .history1 p{
+        padding : 0 px 7px;
+        display : block;
+    }
+    .history2 p{
+        padding : 0px 7px;
+        display : block;
+    }
+}
+.mission h2, .team h2{
+    font-family: "Satisfy";
+    font-size: 50px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+@media(max-width: 850px){
+    .mission h2{
+        padding: 0px 7px;
+        display: block;
+        text-align: right;
+    }
+    .team h2{
+        padding: 0px 7px;
+        display: block;
+        text-align: left;
+    }
+}
+
+.mission p, .team p{
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+}
+
+@media(max-width: 850px){
+    .mission p{
+        padding : 0px 7px;
+        display : block;
+        text-align: left;
+    }
+    .team p{
+        padding : 0px 7px;
+        display : block;
+        text-align: left;
+    }
+}
+
+.footer{
+    background-color: #D1B48C;
+    position: absolute;
+    height:360px;
+    width: 100%;
+}
+
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    padding: 0 7%;
+    margin-top: 66px;
+}
+
+.footer-content p, li, a{
+    text-decoration: none;
+    color: #2F4F4E;
+    line-height: 30px;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+@media (max-width: 850px){
+    footer{
+        padding : 0px 0px;
+        display : block;
+    }
+}
+
+.col1-logo img{
+    width: 131px;
+    height: 125px;
+}
+
+.col5-content img{
+    width: 30px;
+    height: 30px;
+}
+
+.col1-content {
+    max-width: 100%;
+    margin-right: -200px;
+}
+
+.col1-content p{
+    line-height: 25px;
+}
+
+.col3-content {
+    margin-top: -26px;
+}
+
+.col4-content {
+    margin-top: -52px;
+}
+
+.col5-content .facebook, .instagram, .twitter{
+    display: flex;
+}
+
+.icon-txt {
+    padding-left: 10px;
+}

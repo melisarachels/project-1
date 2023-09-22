@@ -1,0 +1,321 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: "Comic Neue", sans-serif;
+    scroll-behavior: smooth;
+}
+
+.navigation li, .navigation a {
+    font-family: "Comic Neue", sans-serif;
+    font weight: 500;
+    font-size: 20px;
+    color: #2F4F4E;
+    text-decoration: none;
+}
+
+.navigation {
+    background-color: #D1B48C;
+    display: flex;
+    position: fixed;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 7%;
+    height:100px;
+    width: 100%;
+    z-index: 1;
+}
+
+.HOME-nav {
+    cursor: pointer;
+}
+
+.HOME-nav img {
+    width: 84px;
+    height: 80px;
+}
+
+.COFFEE-nav, .EVENTS-nav, .HOME-nav, .ABOUTUS-nav, .PROFILE-nav {
+    list-style: none;
+}
+
+.COFFEE-nav li, .EVENTS-nav li, .HOME-nav li, .ABOUTUS-nav li, .PROFILE-nav li {
+    display: inline-block;
+    padding: 0px 10px;
+}
+
+.COFFEE-nav li a, .EVENTS-nav li a, .HOME-nav li a, .ABOUTUS-nav li a, .PROFILE-nav li a {
+    transition: all 0.3s ease 0s;
+}
+
+.COFFEE-nav li a:hover, .EVENTS-nav li a:hover, .ABOUTUS-nav li a:hover, .PROFILE-nav li a:hover {
+    color: aliceblue;
+}
+
+@media (max-width: 650px){
+    header{
+        padding: 0px 7px;
+        background: #D1B48C;
+        display: block;
+        position: absolute;
+    }
+}
+
+.menu {
+    overflow: hidden;
+    background-color: #FFF9F2;
+}
+
+.menu h1 {
+    font-family: "Satisfy";
+    font-weight: 400;
+    color: #9D6F53;
+    text-align: center;
+    font-size: 50px;
+    padding-top: 164px;
+    margin-bottom: 0px;
+}
+
+@media(max-width: 850px){
+    .h1{
+        padding: 0px 7px;
+        display: block;
+        position: absolute;
+    }
+}
+
+.menu .row1 {
+    font-family: "Comic Neue", sans-serif;
+    color: #9D6F53;
+    display: flex;
+    width: auto;
+}
+
+@media(max-width: 850px){
+    .menu .row1{
+        padding: 0px 7px;
+        display: block;
+    }
+}
+
+.menu .row2 {
+    font-family: "Comic Neue", sans-serif;
+    color: #9D6F53;
+    display: flex;
+    width: auto;
+}
+
+@media(max-width: 850px){
+    .menu .row2{
+        padding: 0px 7px;
+        display: block;
+    }
+}
+
+.menu .row3 {
+    font-family: "Comic Neue", sans-serif;
+    color: #9D6F53;
+    display: flex;
+    width: auto;
+}
+
+@media(max-width: 850px){
+    .menu .row3{
+        padding: 0px 7px;
+        display: block;
+    }
+}
+
+.menu .row4 {
+    font-family: "Comic Neue", sans-serif;
+    color: #9D6F53;
+    display: flex;
+    width: auto;
+}
+
+@media(max-width: 850px){
+    .menu .row4{
+        padding: 0px 7px;
+        display: block;
+    }
+}
+
+.menu .row5 {
+    font-family: "Comic Neue", sans-serif;
+    color: #9D6F53;
+    display: flex;
+    width: auto;
+}
+
+@media(max-width: 850px){
+    .menu .row5{
+        padding: 0px 7px;
+        display: block;
+    }
+}
+
+.menu .card1-content {
+    background-color: #EFE0CD;
+    margin-top: 48px;
+    margin-bottom: 48px;
+    margin-left: 108px;
+    margin-right: px;
+    padding: 50px;
+    padding-left: 300px;
+    padding-right: 33px;
+    border-radius: 10px;
+    width: 720px;
+    line-height: 30px;
+    position: static;
+    max-width: 100%;
+}
+
+@media(max-width: 850px){
+    .menu .card1-content{
+        padding: 0px 7px;
+        display: block;
+    }
+}
+
+.menu .card2-content {
+    background-color: #EFE0CD;
+    margin-top: 48px;
+    margin-bottom: 48px;
+    margin-left: 108px;
+    margin-right: 108px;
+    padding: 50px;
+    padding-left: 300px;
+    padding-right: 33px;
+    border-radius: 10px;
+    width: 720px;
+    line-height: 30px;
+    position: static;
+    max-width: 100%;
+}
+
+@media(max-width: 850px){
+    .menu .card2-content{
+        padding: 0px 7px;
+        display: block;
+    }
+}
+
+.menu .card-img img {
+    width: 280px;
+    height: 310px;
+    border-radius: 10px;
+}
+
+@media(max-width: 850px){
+    .menu .card-img img{
+        padding: 0px 7px;
+        display: block;
+    }
+}
+
+.menu .card-img {
+    margin-top: 76px;
+    margin-right: -360px;
+    margin-left: 108px;
+    position: relative;
+}
+
+@media(max-width: 850px){
+    .menu .card-img{
+        padding: 0px 7px;
+        display: block;
+    }
+}
+
+.menu .row5 .card1-content {
+   margin-bottom: 155px;
+}
+
+@media(max-width: 850px){
+    .menu .row5 .card1-content{
+        padding: 0px 7px;
+        display: block;
+    }
+}
+
+.menu .row5 .card2-content {
+    margin-bottom: 155px;
+ }
+
+@media(max-width: 850px){
+    .menu .row5 .card2-content{
+        padding: 0px 7px;
+        display: block;
+    }
+}
+.footer{
+    background-color: #D1B48C;
+    position: absolute;
+    height:360px;
+    width: 100%;
+}
+
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    padding: 0 7%;
+    margin-top: 66px;
+}
+
+.footer-content p, li, a{
+    text-decoration: none;
+    color: #2F4F4E;
+    line-height: 30px;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+@media(max-width: 850px){
+    footer{
+        padding : 0px 0px;
+        display : block;
+    }
+}
+
+.col1-logo img{
+    width: 131px;
+    height: 125px;
+}
+
+.col5-content img{
+    width: 30px;
+    height: 30px;
+}
+
+.col1-content {
+    max-width: 100%;
+    margin-right: -200px;
+}
+
+.col1-content p{
+    line-height: 25px;
+}
+
+.col3-content {
+    margin-top: -26px;
+}
+
+.col4-content {
+    margin-top: -52px;
+}
+
+.col5-content .facebook, .instagram, .twitter{
+    display: flex;
+}
+
+.icon-txt {
+    padding-left: 10px;
+}

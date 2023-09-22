@@ -1,0 +1,290 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: "Comic Neue", sans-serif;
+    scroll-behavior: smooth;
+}
+
+.navigation li, .navigation a {
+    font-family: "Comic Neue", sans-serif;
+    font weight: 500;
+    font-size: 20px;
+    color: #2F4F4E;
+    text-decoration: none;
+}
+
+.navigation {
+    background-color: #D1B48C;
+    display: flex;
+    position: fixed;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 7%;
+    height:100px;
+    width: 100%;
+    z-index: 1;
+}
+
+.HOME-nav {
+    cursor: pointer;
+}
+
+.HOME-nav img {
+    width: 84px;
+    height: 80px;
+}
+
+.COFFEE-nav, .EVENTS-nav, .HOME-nav, .ABOUTUS-nav, .PROFILE-nav {
+    list-style: none;
+}
+
+.COFFEE-nav li, .EVENTS-nav li, .HOME-nav li, .ABOUTUS-nav li, .PROFILE-nav li {
+    display: inline-block;
+    padding: 0px 10px;
+}
+
+.COFFEE-nav li a, .EVENTS-nav li a, .HOME-nav li a, .ABOUTUS-nav li a, .PROFILE-nav li a {
+    transition: all 0.3s ease 0s;
+}
+
+.COFFEE-nav li a:hover, .EVENTS-nav li a:hover, .ABOUTUS-nav li a:hover, .PROFILE-nav li a:hover {
+    color: aliceblue;
+}
+
+@media (max-width: 650px){
+    header{
+        padding: 0px 7px;
+        background: #D1B48C;
+        display: block;
+        position: absolute;
+    }
+}
+
+.profile {
+    overflow: hidden;
+    background-color: #EAD1B1;
+}
+
+.profile h1 {
+    font-family: "Satisfy";
+    font-weight: 400;
+    color: #9D6F53;
+    text-align: center;
+    font-size: 50px;
+    padding-top: 164px;
+    margin-bottom: 40px;
+}
+
+@media(max-width: 850px){
+    .h1{
+        padding: 0px 7%;
+        display: block;
+        position: absolute;
+    }
+}
+
+.profile-content{
+    display: flex;
+    align-items: ;
+    justify-content:;
+    color: #2F4F4E;
+}
+
+@media(max-width: 850px){
+    .profile-content{
+        padding: 0px 7%;
+        display: block;
+    }
+}
+
+.profile-left{
+    margin-left: 270px;
+}
+
+.profile-left h2{
+    font-family: "Satisfy";
+    font-weight: 400;
+    font-size: 36px;
+    max-width: 60%;
+    margin-left: 28px;
+    margin-bottom: 180px;
+    margin-right: ;
+}
+
+@media(max-width: 850px){
+    .h2{
+        padding: 0px 7px;
+        display: block;
+    }
+}
+
+.left-content .left-logo{
+    margin-top: px;
+}
+
+.left-content .left-logo img {
+    width: 367px;
+    height: 349px;
+}
+
+@media(max-width: 850px){
+    .left-content .left-logo img{
+        padding: 0px 7px;
+        display: block;
+    }
+}
+
+.profile-right{
+    font-size: 20px;
+    line-height: 42px;
+    margin-right: 270px;
+}
+
+.address {
+    margin-bottom: 18px;
+}
+
+.profile-right .fullname input, .email input, .password input, .address input{
+    width: 100%;
+    border-radius: 3px;
+    margin-right: 200px;
+    border-style: none;
+    height: 36px;
+}
+
+.fullname input[type=text], .email input[type=email], .password input[type=password], .address input[type=textarea]{
+    width: 100%;
+    padding: 12px 12px;
+    margin: px 0;
+    background-color: #FFF9F2;
+    color: #2F4F4E;
+    transition: .3s;
+    outline: none;
+    font-family: "comic neue";
+    font-size: 16px;
+}
+
+.fullname input[type=text]:focus, .email input[type=email]:focus, .password input[type=password]:focus, .address input[type=textarea]:focus{
+    border-color: #2F4F4E;
+    box-shadow: 0 0 8px 0 #2F4F4E;
+}
+
+.terms input[type=checkbox]{
+    background-color: #FFF9F2;
+    border-style: none;
+    outline: none;
+}
+
+.profile-right .terms input{
+    width: 28px;
+    height: 28px;
+    border-style: none;
+    margin-right: 20px;
+}
+
+.profile-right .terms{
+    margin-top: %;
+    display: flex;
+    align-items: center;
+}
+
+.profile-button button {
+    font-family: "Comic Neue";
+    color: #EFE4D4;
+    display: flex;
+    text-decoration: none;
+    display: inline-block;
+    background-color: #9B5327;
+    border-radius: 10px;
+    border-style: none;
+    font-size: 20px;
+    padding: 19px 41px;
+    margin-top: 36px;
+    margin-left: px;
+    margin-bottom: 140px;
+}
+
+.profile-button button:hover {
+    font-family: "Comic Neue";
+    color: #9B5327;
+    text-decoration: none;
+    display: inline-block;
+    background-color: #f7b684;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 19px 41px;
+}
+
+.footer{
+    background-color: #D1B48C;
+    position: absolute;
+    height:360px;
+    width: 100%;
+}
+
+@media(max-width: 850px){
+    footer{
+        padding : 0px 0px;
+        display : block;
+    }
+}
+
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    padding: 0 7%;
+    margin-top: 66px;
+}
+
+.footer-content p, li, a{
+    text-decoration: none;
+    color: #2F4F4E;
+    line-height: 30px;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.col1-logo img{
+    width: 131px;
+    height: 125px;
+}
+
+.col5-content img{
+    width: 30px;
+    height: 30px;
+}
+
+.col1-content {
+    max-width: 100%;
+    margin-right: -200px;
+}
+
+.col1-content p{
+    line-height: 25px;
+}
+
+.col3-content {
+    margin-top: -26px;
+}
+
+.col4-content {
+    margin-top: -52px;
+}
+
+.col5-content .facebook, .instagram, .twitter{
+    display: flex;
+}
+
+.icon-txt {
+    padding-left: 10px;
+}

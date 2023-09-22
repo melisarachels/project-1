@@ -1,0 +1,344 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: "Comic Neue", sans-serif;
+    scroll-behavior: smooth;
+}
+
+.navigation li, .navigation a {
+    font-family: "Comic Neue", sans-serif;
+    font weight: 500;
+    font-size: 20px;
+    color: #2F4F4E;
+    text-decoration: none;
+}
+
+.navigation {
+    background-color: #D1B48C;
+    display: flex;
+    position: fixed;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 7%;
+    height:100px;
+    width: 100%;
+    z-index: 1;
+}
+
+.HOME-nav {
+    cursor: pointer;
+}
+
+.HOME-nav img {
+    width: 84px;
+    height: 80px;
+}
+
+.COFFEE-nav, .EVENTS-nav, .HOME-nav, .ABOUTUS-nav, .PROFILE-nav {
+    list-style: none;
+}
+
+.COFFEE-nav li, .EVENTS-nav li, .HOME-nav li, .ABOUTUS-nav li, .PROFILE-nav li {
+    display: inline-block;
+    padding: 0px 10px;
+}
+
+.COFFEE-nav li a, .EVENTS-nav li a, .HOME-nav li a, .ABOUTUS-nav li a, .PROFILE-nav li a {
+    transition: all 0.3s ease 0s;
+}
+
+.COFFEE-nav li a:hover, .EVENTS-nav li a:hover, .ABOUTUS-nav li a:hover, .PROFILE-nav li a:hover {
+    color: aliceblue;
+}
+
+@media (max-width: 650px){
+    header{
+        padding: 0px 7px;
+        background: #D1B48C;
+        display: block;
+        position: absolute;
+    }
+}
+
+.event {
+    overflow: hidden;
+    background-color: #F9F0E4;
+}
+
+.event h1 {
+    font-family: "Satisfy";
+    font-weight: 400;
+    color: #9D6F53;
+    text-align: center;
+    font-size: 50px;
+    padding-top: 164px;
+    margin-bottom: 0px;
+}
+
+@media(max-width: 850px){
+    .h1{
+        padding: 0px 7px;
+        display: block;
+        position: absolute;
+    }
+}
+
+.special-content {
+    font-family: "Comic Neue", sans-serif;
+    color: #9D6F53;
+    display: flex;
+    background-color: #EAD1B1;
+    margin-right: 108px;
+    margin-left: 108px;
+    margin-top: 48px;
+    margin-bottom: 48px;
+    padding: 42px;
+    border-radius: 10px;
+}
+
+@media(max-width: 850px){
+    .special-content{
+        padding: 0px 7px;
+        display: block;
+    }
+}
+
+.special-content .special-img img{
+    width: 627px;
+    height: 446px;
+    border-radius: 10px;
+}
+
+@media(max-width: 850px){
+    .special-content .special-img img{
+        padding: 0px 7px;
+        width: 550px;
+        height: 400px;
+        display: block;
+    }
+}
+
+.special-content .special-img {
+    margin-right: 42px;
+}
+
+@media(max-width: 850px){
+    .special-content .special-img{
+        padding: 0px 7px;
+        width: 550px;
+        height: 400px;
+        display: block;
+    }
+}
+.special-content .special-txt h3{
+    font-size: 24px;
+    margin-bottom: 24px;
+}
+
+@media(max-width: 850px){
+    .special-content .special-txt h3{
+        padding : 0px 7px;
+        display : block;
+    }
+}
+
+.special-content .special-txt p{
+    font-size: 20px;
+    line-height: 28px;
+    margin-bottom: 48px;
+}
+
+@media(max-width: 850px){
+    .special-content .special-txt p{
+        padding : 0px 7px;
+        display : block;
+    }
+}
+
+.special-content .special-txt span{
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.event h2 {
+    font-family: "Satisfy";
+    font-weight: 400;
+    color: #9D6F53;
+    text-align: center;
+    font-size: 50px;
+    padding-top: 40px;
+    margin-bottom: 0px;
+}
+
+@media(max-width: 850px){
+    .event h2{
+        padding : 0px 7px;
+        display : block;
+    }
+}
+
+.weekly-content {
+    font-family: "Comic Neue", sans-serif;
+    color: #9D6F53;
+    display: flex;
+    background-color: #EAD1B1;
+    margin-right: 108px;
+    margin-left: 108px;
+    margin-top: 56px;
+    margin-bottom: 56px;
+    padding: 42px;
+    border-radius: 10px;
+}
+
+@media(max-width: 850px){
+    .weekly-content{
+        padding: 0px 7px;
+        display: block;
+    }
+}
+
+.weekly-content .weekly-img img, .weekly-content3 .weekly-img img{
+    width: 556px;
+    height: 346px;
+    border-radius: 10px;
+}
+
+@media(max-width: 850px){
+    .weekly-content .weekly-img img, .weekly-content3 .weekly-img img{
+        padding: 0px 7px;
+        width: 550px;
+        height: 400px;
+        display: block;
+    }
+}
+
+.weekly-content .weekly-img, .weekly-content3 .weekly-img  {
+    margin-right: 42px;
+}
+
+@media(max-width: 850px){
+    .weekly-content .weekly-img, .weekly-content3 .weekly-img{
+        padding: 0px 7px;
+        width: 550px;
+        height: 400px;
+        display: block;
+    }
+}
+
+.weekly-content .weekly-txt h3, .weekly-content3 .weekly-txt h3{
+    font-size: 24px;
+    margin-bottom: 24px;
+}
+
+@media(max-width: 850px){
+    .weekly-content .weekly-txt h3, .weekly-content3 .weekly-txt h3{
+        padding : 0px 7px;
+        display : block;
+    }
+}
+
+.weekly-content .weekly-txt p, .weekly-content3 .weekly-txt p{
+    font-size: 20px;
+    line-height: 28px;
+    margin-bottom: 48px;
+}
+
+@media(max-width: 850px){
+    .weekly-content .weekly-txt p, .weekly-content3 .weekly-txt p{
+        padding : 0px 7px;
+        display : block;
+    }
+}
+
+.weekly-content3 {
+    font-family: "Comic Neue", sans-serif;
+    color: #9D6F53;
+    display: flex;
+    background-color: #EAD1B1;
+    margin-right: 108px;
+    margin-left: 108px;
+    margin-top: 56px;
+    margin-bottom: 140px;
+    padding: 42px;
+    border-radius: 10px;
+}
+
+@media(max-width: 850px){
+    .weekly-content3{
+        padding : 0px 7px;
+        display : block;
+    }
+}
+
+.footer{
+    background-color: #D1B48C;
+    position: absolute;
+    height:360px;
+    width: 100%;
+}
+
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    padding: 0 7%;
+    margin-top: 66px;
+}
+
+.footer-content p, li, a{
+    text-decoration: none;
+    color: #2F4F4E;
+    line-height: 30px;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+@media (max-width: 850px){
+    footer{
+        padding : 0px 0px;
+        display : block;
+    }
+}
+
+.col1-logo img{
+    width: 131px;
+    height: 125px;
+}
+
+.col5-content img{
+    width: 30px;
+    height: 30px;
+}
+
+.col1-content {
+    max-width: 100%;
+    margin-right: -200px;
+}
+
+.col1-content p{
+    line-height: 25px;
+}
+
+.col3-content {
+    margin-top: -26px;
+}
+
+.col4-content {
+    margin-top: -52px;
+}
+
+.col5-content .facebook, .instagram, .twitter{
+    display: flex;
+}
+
+.icon-txt {
+    padding-left: 10px;
+}
